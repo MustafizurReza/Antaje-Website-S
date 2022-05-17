@@ -1,20 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Revision of HTML & CSS class</title>
     <style>
-        #image{
-            height: 300px;
-            width: 300px;
+        img{
+            height: 400px;
+            width: 50%;
         }
+        span{
+            color:blue;
+        }
+        #introduction{
+            color:brown;
+        }
+        .Part{
+            background-color: grey;
+            border: 10px solid salmon;
+            margin: 35px;
+            padding: 35px;
+            border-radius: 4px;
+            height:500px; 
+            width:20%;
+            float: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+        } 
+        h2.Part{
+            text-align: center;
+        }
+        #link{
+            font-size: 20px;
+            font-weight: 900;
+        }  
     </style>
 </head>
 <body>
-    <h1>Hi I am using Github</h1>
-    <h2>I am new but I am confident about this</h2>
-    <h3>I said that i am right</h3>
-    <img id="image" src="github.png">
+    <div class="Part">
+        <p id="introduction">I am <span>Mustafizur Reza</span></p>
+        <p>I am revisiting this <b>modules</b></p>  
+        <p> amet voluptate quis earum doloribus exercitationem est temporibus dolorem, quos non aliquid, adipisci excepturi molestias sit in consequuntur natus voluptatibus soluta maxime quisquam! Eligendi molestiae quasi sequi consectetur molestias?</p>
+    </div>
+    <div class="Part">
+        <h1>Modules are</h1>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h2>Remainning Modules are</h2>
+        <p>Github</p>
+        <p>CSS Hover</p>
+        <p> amet voluptate quis earum doloribus exercitationem est temporibus dolorem, quos non aliquid, adipisci excepturi molestias sit in consequuntur natus voluptatibus soluta maxime quisquam! Eligendi molestiae quasi sequi consectetur molestias?</p>
+    </div>
+    <div class="Part">
+        <h2>Milestones are</h2>
+    <ol>
+        <li>Milestone 4</li>
+        <li>Milestone 5</li>
+        <li>Milestone 10</li>
+    </ol>
+    <ul>
+        <li>Milestone 9</li>
+        <li>Milestone 8</li>
+        <li>Milestone 11</li>
+    </ul>
+        <p> amet voluptate quis earum doloribus exercitationem est temporibus dolorem, quos non aliquid, adipisci excepturi molestias sit in consequuntur natus voluptatibus soluta maxime quisquam! Eligendi molestiae quasi sequi consectetur molestias?</p>
+    </div>
+    <p id="link">for more tags visit <a href="click here"></a> </p>
+    <a href="https://www.w3schools.com"></a>
+    <img src="images/hero.png" alt="">
+    <button>For More Info</button>
 </body>
 </html>
